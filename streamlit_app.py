@@ -70,7 +70,7 @@ if 'audio_data' not in st.session_state:
 if 'session_name' not in st.session_state:
     st.session_state.session_name = f"Session_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
 if 'language_mode' not in st.session_state:
-    st.session_state.language_mode = "English"
+    st.session_state.language_mode = "English (American)"
 
 # Comprehensive vowel systems for major world languages
 # Formant values based on published acoustic phonetics research
