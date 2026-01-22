@@ -2,15 +2,36 @@
 
 A web-based tool for acoustic phonetic analysis that visualizes vowel spaces through formant extraction and comparison with native speaker reference data.
 
-## Features
+**🎯 Perfect for:** Linguistics research, language learning, speech therapy, phonetics education
 
-- **Multi-language Support**: Select L1 (native) and L2 (target) languages
-- **Real-time Recording**: Browser-based audio recording with visual prompts
-- **Dual Temporal Analysis**: Formant extraction at T1 (1/3) and T2 (2/3) vowel duration
-- **Interactive Visualization**: Dynamic vowel quadrangle with F1/F2 plotting
-- **Comparative Analysis**: Overlay user data with reference vowel spaces
-- **Data Export**: CSV export of formant data and research database integration
-- **Privacy-First**: Anonymized data collection and storage
+## ✨ Key Features
+
+### 🎤 Core Capabilities
+- **Browser-Based Voice Recording** - No external software needed
+- **Formant Extraction** - F1, F2, F3 using Linear Predictive Coding
+- **IPA Vowel Charts** - Traditional vowel trapezoid visualization
+- **Multi-Language Support** - English, Turkish, Spanish vowel systems
+- **Session Management** - Save/load sessions as JSON
+- **Audio Playback** - Replay your recordings
+
+### 📊 Analysis Tools
+- **Detailed Formant Tables** - View F1, F2, F3 for all recordings
+- **Accuracy Scoring** - Compare to native speaker targets
+- **Practice Mode** - Interactive pronunciation training
+- **Visual Feedback** - Real-time performance indicators
+
+### 📥 Export Options
+- **PNG/PDF Charts** - Publication-quality vowel spaces (300 DPI)
+- **CSV Data** - Formant values for statistical analysis
+- **JSON Sessions** - Complete session data with timestamps
+
+### 🎯 4 Operating Modes
+1. **Vowel Space Analysis** - Record and visualize vowels
+2. **Audio Visualization** - Waveforms, spectrograms, MFCCs
+3. **Feature Extraction** - MFCC, spectral features, ZCR
+4. **Practice Mode** - Interactive pronunciation training
+
+See [FEATURES.md](FEATURES.md) for complete feature list.
 
 ## Technical Stack
 
