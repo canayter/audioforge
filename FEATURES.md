@@ -48,32 +48,36 @@ Interactive vowel pronunciation training with real-time feedback.
 
 ### 3. **Multi-Language Support** 🌍
 
-#### English (8 vowels):
-- /i/ - bEEt
-- /ɪ/ - bIt
-- /ɛ/ - bEt
-- /æ/ - bAt
-- /ɑ/ - fAther
-- /ɔ/ - cAUght
-- /u/ - bOOt
-- /ʌ/ - bUt
+**18 Languages with 134+ Vowels!**
 
-#### Turkish (8 vowels):
-- /i/ - ip (thread)
-- /y/ - gül (rose)
-- /ɯ/ - kız (girl)
-- /u/ - kum (sand)
-- /e/ - el (hand)
-- /ø/ - göl (lake)
-- /a/ - at (horse)
-- /o/ - kol (arm)
+#### European Languages:
+- **English (American)** - 10 vowels
+- **Spanish** - 5 vowels
+- **French** - 10 vowels (including front rounded)
+- **German** - 10 vowels (including umlauts)
+- **Italian** - 7 vowels
+- **Portuguese (Brazilian)** - 7 vowels
+- **Russian** - 6 vowels
+- **Dutch** - 11 vowels
+- **Swedish** - 10 vowels
+- **Polish** - 6 vowels
+- **Greek** - 5 vowels
 
-#### Spanish (5 vowels):
-- /i/ - sí (yes)
-- /e/ - té (tea)
-- /a/ - la (the)
-- /o/ - no (no)
-- /u/ - tú (you)
+#### Asian Languages:
+- **Turkish** - 8 vowels (vowel harmony system)
+- **Arabic (Modern Standard)** - 3 vowels
+- **Mandarin Chinese** - 7 vowels
+- **Japanese** - 5 vowels
+- **Korean** - 8 vowels
+- **Hindi** - 7 vowels
+- **Vietnamese** - 8 vowels
+
+#### Each vowel includes:
+- IPA symbol
+- Example word with translation
+- Target F1 formant (Hz)
+- Target F2 formant (Hz)
+- Pronunciation guide
 
 ---
 
