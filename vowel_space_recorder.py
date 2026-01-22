@@ -3,10 +3,16 @@ import matplotlib.pyplot as plt
 import librosa
 from scipy import signal
 from scipy.linalg import solve_toeplitz
-import sounddevice as sd
 import time
 import sys
 import io
+
+# Optional import for command-line recording (not needed for Streamlit)
+try:
+    import sounddevice as sd
+    SOUNDDEVICE_AVAILABLE = True
+except ImportError:
+    SOUNDDEVICE_AVAILABLE = False
 
 # Fix encoding for Windows console
 if sys.platform == 'win32':
@@ -126,6 +132,13 @@ class VowelRecorder:
         y : array
             Recorded audio signal
         """
+        if not SOUNDDEVICE_AVAILABLE:
+            raise ImportError(
+                "sounddevice is not available. "
+                "This method is only for command-line use. "
+                "Use the Streamlit app for browser-based recording."
+            )
+
         print(f"\n{prompt}")
         print(f"Recording for {self.duration} seconds...")
         print("3...")
