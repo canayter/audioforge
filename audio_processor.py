@@ -1,4 +1,4 @@
-pythonimport librosa
+import librosa
 import numpy as np
 
 class AudioProcessor:

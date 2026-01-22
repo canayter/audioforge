@@ -278,16 +278,18 @@ class VowelSpaceVisualizer:
         ax.set_ylabel('F1 (Hz)', fontsize=14, weight='bold')
         ax.set_title('Vowel Space (IPA Chart Style)', fontsize=16, weight='bold')
 
-        # Add descriptive labels for the dimensions
-        ax.text(0.02, 0.98, 'CLOSE/HIGH', transform=ax.transAxes,
-               fontsize=10, va='top', ha='left', style='italic', color='blue')
-        ax.text(0.02, 0.02, 'OPEN/LOW', transform=ax.transAxes,
-               fontsize=10, va='bottom', ha='left', style='italic', color='blue')
+        # Add descriptive labels for the dimensions (IPA chart orientation)
+        # Top-left: CLOSE/HIGH + FRONT (high F2 = front, but axis inverted so on right visually)
+        # Top-right: CLOSE/HIGH + BACK (low F2 = back, but axis inverted so on left visually)
+        # Bottom: OPEN/LOW
+        ax.text(0.98, 0.02, 'CLOSE/HIGH', transform=ax.transAxes,
+               fontsize=11, va='bottom', ha='right', style='italic', color='blue', weight='bold')
+        ax.text(0.02, 0.98, 'OPEN/LOW', transform=ax.transAxes,
+               fontsize=11, va='top', ha='left', style='italic', color='blue', weight='bold')
         ax.text(0.98, 0.98, 'FRONT', transform=ax.transAxes,
-               fontsize=10, va='top', ha='right', style='italic', color='blue')
+               fontsize=11, va='top', ha='right', style='italic', color='darkgreen', weight='bold')
         ax.text(0.02, 0.98, 'BACK', transform=ax.transAxes,
-               fontsize=10, va='top', ha='left', style='italic', color='blue',
-               bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.3))
+               fontsize=11, va='top', ha='left', style='italic', color='darkgreen', weight='bold')
 
         # Grid
         ax.grid(True, alpha=0.3, linestyle='--')
