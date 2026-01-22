@@ -59,18 +59,57 @@ audioforge/
 git clone https://github.com/canayter/audioforge.git
 cd audioforge
 
-# Backend setup
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the Streamlit web app
+streamlit run streamlit_app.py
+
+# Or use the provided scripts
+# Windows:
+run_app.bat
+
+# Mac/Linux:
+./run_app.sh
 ```
+
+The app will open in your browser at `http://localhost:8501`
 
 ## Usage
 
-1. **Language Selection**: Choose your native language (L1) and target language (L2)
-2. **Recording Setup**: Complete optional survey about language experience
-3. **Voice Recording**: Record prompted words/phrases (max 20 seconds)
-4. **Analysis**: System extracts F1/F2 formants using dual temporal analysis
-5. **Visualization**: View interactive vowel quadrangle with reference overlay
-6. **Export**: Download formant data as CSV
+### Web Interface (Recommended)
+
+The Streamlit app provides three modes:
+
+1. **Vowel Space Analysis**
+   - Record vowels directly in your browser
+   - Extract formants (F1, F2, F3) automatically
+   - Visualize on an IPA-style vowel chart
+   - Compare with reference vowels
+   - Download your vowel space chart
+
+2. **Audio Visualization**
+   - Record or upload audio files
+   - View waveforms, spectrograms, and MFCCs
+   - Apply audio processing (trim, normalize, filter)
+
+3. **Feature Extraction**
+   - Extract MFCC, spectral features, and ZCR
+   - View feature statistics and visualizations
+
+See [STREAMLIT_GUIDE.md](STREAMLIT_GUIDE.md) for detailed instructions.
+
+### Command-Line Interface
+
+For advanced users, run the Python modules directly:
+
+```python
+from vowel_space_recorder import VowelRecorder, VowelSpaceVisualizer
+
+recorder = VowelRecorder()
+y = recorder.record_audio()
+# ... extract formants and visualize
+```
 
 ## Research Applications
 
