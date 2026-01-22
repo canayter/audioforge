@@ -10,7 +10,7 @@ A web-based tool for acoustic phonetic analysis that visualizes vowel spaces thr
 - **Browser-Based Voice Recording** - No external software needed
 - **Formant Extraction** - F1, F2, F3 using Linear Predictive Coding
 - **IPA Vowel Charts** - Traditional vowel trapezoid visualization
-- **Multi-Language Support** - English, Turkish, Spanish vowel systems
+- **Multi-Language Support** - 41 languages with 301 vowels (Turkic, Uralic, Mongolic, Indo-European, and more)
 - **Session Management** - Save/load sessions as JSON
 - **Audio Playback** - Replay your recordings
 

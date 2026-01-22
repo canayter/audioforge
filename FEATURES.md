@@ -48,7 +48,7 @@ Interactive vowel pronunciation training with real-time feedback.
 
 ### 3. **Multi-Language Support** 🌍
 
-**18 Languages with 134+ Vowels!**
+**41 Languages with 301 Vowels!**
 
 #### European Languages:
 - **English (American)** - 10 vowels
@@ -62,15 +62,52 @@ Interactive vowel pronunciation training with real-time feedback.
 - **Swedish** - 10 vowels
 - **Polish** - 6 vowels
 - **Greek** - 5 vowels
+- **Hungarian** - 9 vowels
+- **Estonian** - 9 vowels
+- **Finnish** - 8 vowels
 
-#### Asian Languages:
-- **Turkish** - 8 vowels (vowel harmony system)
+#### Caucasian & Middle Eastern Languages:
+- **Georgian** - 5 vowels
+- **Armenian** - 6 vowels
+- **Kurdish (Kurmanji)** - 6 vowels
 - **Arabic (Modern Standard)** - 3 vowels
+
+#### Turkic Languages (Vowel Harmony Systems):
+- **Turkish** - 8 vowels
+- **Azerbaijani** - 9 vowels
+- **Kazakh** - 9 vowels
+- **Kyrgyz** - 8 vowels
+- **Uzbek** - 6 vowels
+- **Turkmen** - 8 vowels
+- **Uyghur** - 8 vowels
+- **Tatar** - 8 vowels
+- **Bashkir** - 9 vowels
+- **Sakha (Yakut)** - 8 vowels
+- **Chuvash** - 6 vowels
+- **Gagauz** - 8 vowels
+
+#### Mongolic Languages:
+- **Mongolian (Khalkha)** - 7 vowels
+- **Buryat** - 7 vowels
+
+#### Iranian Languages:
+- **Tajik** - 6 vowels
+- **Pashto** - 7 vowels
+- **Dari (Afghan Persian)** - 5 vowels
+
+#### East Asian Languages:
 - **Mandarin Chinese** - 7 vowels
 - **Japanese** - 5 vowels
 - **Korean** - 8 vowels
+
+#### South Asian Languages:
 - **Hindi** - 7 vowels
+
+#### Southeast Asian Languages:
 - **Vietnamese** - 8 vowels
+
+#### Indigenous American Languages:
+- **Mazahua** - 5 vowels
 
 #### Each vowel includes:
 - IPA symbol
